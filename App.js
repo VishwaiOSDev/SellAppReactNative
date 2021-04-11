@@ -5,11 +5,12 @@ import { StyleSheet, Text, View } from "react-native";
 import AppButton from "./components/AppButton";
 import Card from "./components/Card";
 import ListingDetailScreen from "./screens/ListingDetailScreen";
+import MessagesScreen from "./screens/MessagesScreen";
 import ViewImageScreen from "./screens/ViewImageScreen";
 import WelcomeScreen from "./screens/WelcomeScreen";
 
 export default function App() {
-  return <ViewImageScreen />;
+  return <MessagesScreen />;
 }
 
 const styles = StyleSheet.create({
