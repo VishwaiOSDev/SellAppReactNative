@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 import colors from "../config/colors";
 
@@ -17,8 +17,7 @@ function AppButton(props) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: colors.primary,
-    borderRadius: 10,
+    borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
