@@ -1,16 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { SafeAreaView, StyleSheet, Text, View, StatusBar } from "react-native";
 
-import AppTextInput from "./components/AppTextInput";
-import LoginScreen from "./screens/LoginScreen";
-import AppButton from "./components/AppButton";
+import ListingEditScreen from "./screens/ListingEditScreen";
+import MessagesScreen from "./screens/MessagesScreen";
 
 export default function App() {
-  return (
-    <SafeAreaView style={{ paddingTop: StatusBar.currentHeight }}>
-      <LoginScreen />
-    </SafeAreaView>
-  );
+  return <ListingEditScreen />;
 }
 
 const styles = StyleSheet.create({
